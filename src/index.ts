@@ -1,4 +1,4 @@
-// import KimaiConfiguration from "./KimaiConfiguration";
+import KimaiConfiguration from "./KimaiConfiguration";
 import { getServerTime, toLocalTime, secondsToHumanReadable } from './DateTools';
 
 import getActivities from './GetActivities';
