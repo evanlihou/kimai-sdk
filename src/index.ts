@@ -29,7 +29,7 @@ export default class KimaiSdk {
     public getActivities = getActivities.bind(this);
     public getStatus = getStatus.bind(this);
     public getTimesheet = getTimesheet.bind(this);
-    public getTimesheeets = getTimesheets.bind(this);
+    public getTimesheets = getTimesheets.bind(this);
 
     public clockIn = clockIn.bind(this);
     public clockOut = clockOut.bind(this);
