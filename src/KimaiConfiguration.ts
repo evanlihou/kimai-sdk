@@ -1,4 +1,4 @@
-export interface KimaiConfiguration {
+export default interface KimaiConfiguration {
   /** A friendly URL to the Kimai interface, used to provide a link to the user */
   friendly_url?: string,
   /** The base API endpoint for Kimai, including the `/api` but not including a `/` at the end */
