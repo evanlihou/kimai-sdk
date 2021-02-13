@@ -2,9 +2,10 @@
   "name": "kimai-sdk",
   "version": "0.1.1",
   "description": "A *partially implemented* way to communicate with Kimai in JavaScript",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,10 @@
   "homepage": "https://github.com/evanlihou/kimai-sdk#readme",
   "dependencies": {
     "date-fns": "^2.16.1"
+  },
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.1",
+    "node-fetch": "^2.6.1",
+    "typescript": "^4.1.3"
   }
 }
